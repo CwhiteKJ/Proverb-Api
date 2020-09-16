@@ -15,7 +15,7 @@ const getProverb = () => {
                 result.word = rows[0].word
                 resolve(result)
             } catch {
-                resolve(`{serial: 0, world: '값을 불러올 수 없습니다.'}`)
+                resolve(`{"serial": 0, "word": "올바르지 않은 접근입니다."}`)
             }
         });
     })

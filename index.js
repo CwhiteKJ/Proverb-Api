@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.use(function(req, res, next) {
-  res.status(404).send("{serial: 0, word: '올바르지 않은 접근입니다.'}");
+  res.status(404).send(`{"serial": 0, "word": "올바르지 않은 접근입니다."}`);
 })
 
 app.listen(3000, () => {
