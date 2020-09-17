@@ -1,6 +1,6 @@
 ![Web](view.PNG)
 
-# 명언 API  
+# [명언 API](https://proverb.cf)  
 
 쉽고 간단하게 명언을 확인해보세요!    
 현재 등록된 명언은 약 16000개입니다.   
@@ -11,7 +11,7 @@
 
 ```js
 const fetch = require('node-fetch');
-const url = '도메인 추가 예정';
+const url = 'https://proverb.cf';
 
 fetch(url).then(res => res.json()).then(json => {
   console.log(json) 
