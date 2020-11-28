@@ -28,3 +28,5 @@ fetch(url).then(res => res.json()).then(json => {
 
 
 ***기여는 환영합니다! 언제든지 ISSUE & PR 해주세요!***
+
+# 이제 더 이상 운영되지 않는 API 입니다!
